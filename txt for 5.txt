@@ -1,0 +1,28 @@
+Project Title: Activity Tracker
+
+Objective: Develop a web-based activity tracker that allows users to log and manage their daily activities.
+
+Components and Functionality:
+
+User Interface:
+HTML Structure: The interface includes a file input for JSON files, activity buttons, a timer display, and control buttons for tracking activities.
+CSS Styling: The design is responsive, with styles for different screen sizes and interactive elements like buttons and activity items.
+JavaScript Logic:
+Activity Tracking: Users can start, stop, and toggle tracking for predefined activities (Work, Sleep, Study, Anything Else).
+Timer System: A timer updates every second to show elapsed time for the current activity.
+Activity History: Activities are stored in localStorage and displayed in a history section.
+Data Storage:
+Local Storage: Activity sessions are saved in the browser's localStorage for persistence.
+File Handling: Users can save activity history as a JSON file and upload files for data import.
+External Interactions:
+File Input: Allows users to upload JSON files containing activity data.
+Download Link: Provides a way to download the activity history as a JSON file.
+Responsive Design:
+Media Queries: Adjusts layout and button sizes for screens smaller than 600px.
+Use Cases:
+
+Start Tracking: Initiates a new activity session and updates the UI.
+Stop Tracking: Ends the current session and saves the data.
+Toggle Tracking: Switches between starting and stopping the timer.
+Save Times: Exports the activity history to a JSON file.
+Clear Times: Resets the activity history and clears the display.
